@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:test_app/src/assignment10e.dart';
+import 'package:test_app/src/assignment10g.dart';
+import 'package:test_app/src/assignment10h.dart';
+import 'package:test_app/src/assignment10i.dart';
+import 'package:test_app/src/assignment10j.dart';
 
 void main() {
   runApp(const MyApp());
@@ -9,13 +13,11 @@ class MyApp extends StatelessWidget {
   const MyApp({super.key});
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Scaffold(
-        appBar: AppBar(
-          title: const Text("appBar"),
-        ),
-      ),
-    );
+    return const MaterialApp(
+      home:Assignment10j(),
+        );
+      
+    
   }
 }
 
