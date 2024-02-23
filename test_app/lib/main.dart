@@ -4,6 +4,13 @@ import 'package:test_app/src/assignment10g.dart';
 import 'package:test_app/src/assignment10h.dart';
 import 'package:test_app/src/assignment10i.dart';
 import 'package:test_app/src/assignment10j.dart';
+import 'package:test_app/src/lifecycle.dart';
+import 'package:test_app/src/listviewSeparated.dart';
+import 'package:test_app/src/quizapp.dart';
+import 'package:test_app/src/rewards.dart';
+import 'package:test_app/src/texfielddemo.dart';
+import 'package:test_app/src/textfield.dart';
+import 'package:test_app/src/todolist.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,10 +21,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home:Assignment10j(),
-        );
-      
-    
+      home: TextFieldDemo1(),
+      debugShowCheckedModeBanner: false,
+    );
   }
 }
 
