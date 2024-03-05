@@ -6,7 +6,7 @@ import 'package:test_app/src/assignment10i.dart';
 import 'package:test_app/src/assignment10j.dart';
 import 'package:test_app/src/lifecycle.dart';
 import 'package:test_app/src/listviewSeparated.dart';
-import 'package:test_app/src/quizapp.dart';
+import 'package:test_app/src/locationdemo.dart';
 import 'package:test_app/src/rewards.dart';
 import 'package:test_app/src/texfielddemo.dart';
 import 'package:test_app/src/textfield.dart';
@@ -20,8 +20,8 @@ class MyApp extends StatelessWidget {
   const MyApp({super.key});
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: TextFieldDemo1(),
+    return  MaterialApp(
+      home: AppUsageRewards(),
       debugShowCheckedModeBanner: false,
     );
   }

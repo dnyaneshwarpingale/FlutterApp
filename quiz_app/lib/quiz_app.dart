@@ -60,13 +60,13 @@ class _QuizAppState extends State {
   }
   List allQuestions = [
     const QuizeModel(
-      question: "Who is the owner of the Apple ?",
-      Options: ["Bill gates", " Stev Jobs", "Elon Musk", "Jef Bezos"],
+      question: "Who is the father of the C++ ?",
+      Options: ["Bill gates", "Bjarne Stroustrup", "Elon Musk", "Jef Bezos"],
       answer: 1
     ),
     const QuizeModel(
-      question: "Who is the owner of the Microsoft ?",
-      Options: ["Bill gates", " Stev Jobs", "Elon Musk", "Jef Bezos"],
+      question: "Who invented Flutter framework?",
+      Options: ["Google", " Microsoft", "Meta", "Amazon"],
       answer: 0
     ),
     const QuizeModel(
@@ -75,9 +75,9 @@ class _QuizAppState extends State {
       answer: 2
     ),
     const QuizeModel(
-      question: "Who is the owner of the Amazon ?",
-      Options: ["Bill gates", " Stev Jobs", "Elon Musk", "Jef Bezos"],
-      answer: 3
+      question: "Who is the current owner of LinkedIn?",
+      Options: ["Google", " Microsoft", "Meta", "Amazon"],
+      answer: 1
     ),
     const QuizeModel(
       question: "Who is the owner of the Biencaps ?",
